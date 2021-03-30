@@ -1,4 +1,4 @@
-This is the code for a workshop at RailsConf 2021, see the other workshops on the program at railsconf.com/program/workshops.
+This is the code for a workshop at RailsConf 2021, see the other workshops on the program at [railsconf.com/program/workshops.](https://railsconf.com/program/workshops)
 
 # Believe in Rails Magic? Unlock the Powers of Rails
  
