@@ -28,3 +28,41 @@ We will be working with VSCode
  - [Action Controller Overview](https://guides.rubyonrails.org/action_controller_overview.html)
  - [Rails Routing from the Outside In](https://guides.rubyonrails.org/v2.3/routing.html)
  - [Understanding the basics of Ruby on Rails: SQL Databases and how they work](https://www.freecodecamp.org/news/understanding-the-basics-of-ruby-on-rails-sql-databases-and-how-they-work-7a628cd42073/)
+
+## What We'll Cover (User stories)
+
+- As a developer, I can create an exercise tracking application.
+
+- As a developer, the exercise tracker will have an activity and a description.
+
+- As a developer, I can add new exercise entries directly to my database.
+
+- As a user, I can see all the exercise entries listed on the home page of the application.
+
+- As a user, I can click on the activity of an exercise and be routed to a page where I see the activity and description of the exercise entry I selected.
+
+- As a user, I can navigate from the show page back to the home page.
+
+- As a user, I see a form where I can create a new exercise entry.
+
+- As a user, I can click a button that will take me from the home page to a page where I can create an exercise entry.
+
+
+- As a user, I can navigate from the form back to the home page.
+
+
+- As a user, I can click a button that will submit my exercise entry to the database.
+
+- As a user, I when I submit my post, I am redirected to the home page.
+
+## Stretch Challenges
+
+- Implement Rails strong parameters
+
+- As a user, I can delete my excercise activities.
+
+- As a user, I can edit/update my exercise activities.
+
+## Rails Magic!
+
+- As a developer, I would like to see Rails magically create all of this for me
