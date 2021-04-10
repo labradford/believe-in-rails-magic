@@ -1,0 +1,10 @@
+<h1>Exercise App</h1>
+
+<% @exercises.each do |exercise| %>
+  <h3>
+    <%= exercise.activity %>
+  </h3>
+  <p>
+    <%= exercise.description %>
+  </p>
+<% end %>
