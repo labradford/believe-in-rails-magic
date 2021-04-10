@@ -299,7 +299,7 @@ For this user story, we will need to add a private method to the bottom of app/c
     @exercise = Exercise.new(exercise_params)
 
     if @exercise.save
-      redirect_to @exercise
+      redirect_to root_path
     else
       render :new
     end
@@ -335,7 +335,7 @@ For this user story, we will need to add a private method to the bottom of app/c
   ```
     <ul>
       <li>
-        <%= link_to "Destroy", exercise_path(@exercise),
+        <%= link_to "Delete activity", destroy_exercise_path(exercise),
         method: :delete, data: { confirm: "Are you sure?" } %>
       </li>
     </ul>
@@ -363,7 +363,7 @@ For this user story, we will need to add a private method to the bottom of app/c
       @exercise = Exercise.find(params[:id])
 
       if @exercise.update(exercise_params)
-        redirect_to @exercise
+        redirect_to root_path
       else
         render :edit
       end
@@ -409,7 +409,7 @@ For this user story, we will need to add a private method to the bottom of app/c
 
   ```
     <li>
-      <%= link_to 'Edit exercise', edit_exercise_path(id: exercise.id) %>
+      <%= link_to 'Edit activity', edit_exercise_path(id: exercise.id) %>
     </li>
   ```
 
