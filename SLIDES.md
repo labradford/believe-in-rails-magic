@@ -416,3 +416,12 @@ For this user story, we will need to add a private method to the bottom of app/c
   This line should be inside of the `<ul>` that we created during the delete story. 
 
   ### As a developer, I would like to see Rails magically create all of this for me
+
+  You will need to start from a fresh creation of an app for this command to work.
+
+  Rails magic creates all of the CRUD actions, routes, views, controller actions and the model for you (along with a lot of other files that we didn't go over today).
+
+  ```
+    rails generate scaffold Exercise activity:string description:string
+  ```
+  
