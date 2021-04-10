@@ -16,5 +16,10 @@ class ExercisesController < ApplicationController
       activity: params[:exercise][:activity],
       description: params[:exercise][:description]
     )
+    if @exercise.save
+      redirect_to root_path
+    else
+      render :new
+    end
   end
 end
