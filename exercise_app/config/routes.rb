@@ -4,6 +4,8 @@ Rails.application.routes.draw do
   get 'exercises' => 'exercises#index', as: 'exercises'
   post 'exercises' => 'exercises#create'
   get 'exercises/new' => 'exercises#new', as: 'new_exercise'
+  get 'exercises/edit' => 'exercises#edit', as: 'edit_exercise'
+  patch 'exercises/:id' => 'exercises#update'
   get 'exercises/:id' => 'exercises#show', as: 'exercise'
   delete 'exercises/:id' => 'exercises#destroy', as: 'destroy_exercise'
 end

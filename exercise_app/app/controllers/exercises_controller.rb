@@ -21,6 +21,20 @@ class ExercisesController < ApplicationController
     end
   end
 
+  def edit
+    @exercise = Exercise.find(params[:id])
+  end
+
+  def update
+    @exercise = Exercise.find(params[:id])
+
+    if @exercise.update(exercise_params)
+      redirect_to root_path
+    else
+      render :edit
+    end
+  end
+
   def destroy
     @exercise = Exercise.find(params[:id])
     @exercise.destroy

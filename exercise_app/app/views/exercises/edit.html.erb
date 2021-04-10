@@ -1,0 +1,15 @@
+<h3>Edit an Exercise Session</h3>
+<%= form_with model: @exercise do |form| %>
+
+  <%= form.label :activity %>
+  <%= form.text_field :activity %>
+
+  <br>
+  <%= form.label :description %>
+  <%= form.text_field :description %>
+
+  <br>
+  <%= form.submit 'Update Exercise' %>
+<% end %>
+
+<p><%= link_to 'Back to home', root_path %></p>

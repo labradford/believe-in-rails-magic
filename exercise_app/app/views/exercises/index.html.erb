@@ -9,6 +9,9 @@
   </p>
   <ul>
     <li>
+      <%= link_to "Edit activity", edit_exercise_path(id: exercise.id) %>
+    </li>
+    <li>
       <%= link_to "Delete activity", destroy_exercise_path(exercise),
       method: :delete, data: { confirm: "Are you sure?" } %>
     </li>
