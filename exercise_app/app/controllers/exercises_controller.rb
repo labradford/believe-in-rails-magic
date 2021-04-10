@@ -12,14 +12,18 @@ class ExercisesController < ApplicationController
   end
 
   def create
-    @exercise = Exercise.create(
-      activity: params[:exercise][:activity],
-      description: params[:exercise][:description]
-    )
+    @exercise = Exercise.new(exercise_params)
+
     if @exercise.save
       redirect_to root_path
     else
       render :new
     end
   end
+
+  private
+
+    def exercise_params
+      params.require(:exercise).permit(:activity, :description)
+    end
 end

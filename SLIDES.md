@@ -299,7 +299,7 @@ For this user story, we will need to add a private method to the bottom of app/c
     @exercise = Exercise.new(exercise_params)
 
     if @exercise.save
-      redirect_to @exercise
+      redirect_to root_path
     else
       render :new
     end
@@ -363,7 +363,7 @@ For this user story, we will need to add a private method to the bottom of app/c
       @exercise = Exercise.find(params[:id])
 
       if @exercise.update(exercise_params)
-        redirect_to @exercise
+        redirect_to root_path
       else
         render :edit
       end
