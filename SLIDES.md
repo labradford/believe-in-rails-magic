@@ -241,8 +241,8 @@ To create the index view, add a file to app/views/exercises named index.html.erb
   ```
     def create
       @exercise = Exercise.create(
-        activity: params[:activity],
-        description: params[:description]
+        activity: params[:exercise][:activity],
+        description: params[:exercise][:description]
       )
     end
   ```

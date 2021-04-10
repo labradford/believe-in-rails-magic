@@ -10,4 +10,11 @@ class ExercisesController < ApplicationController
   def new
     @exercise = Exercise.new
   end
+
+  def create
+    @exercise = Exercise.create(
+      activity: params[:exercise][:activity],
+      description: params[:exercise][:description]
+    )
+  end
 end
