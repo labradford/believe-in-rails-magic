@@ -409,7 +409,7 @@ For this user story, we will need to add a private method to the bottom of app/c
 
   ```
     <li>
-      <%= link_to 'Edit exercise', edit_exercise_path(id: exercise.id) %>
+      <%= link_to 'Edit activity', edit_exercise_path(id: exercise.id) %>
     </li>
   ```
 
