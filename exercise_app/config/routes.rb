@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   post 'exercises' => 'exercises#create'
   get 'exercises/new' => 'exercises#new', as: 'new_exercise'
   get 'exercises/:id' => 'exercises#show', as: 'exercise'
+  delete 'exercises/:id' => 'exercises#destroy', as: 'destroy_exercise'
 end

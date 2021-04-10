@@ -335,7 +335,7 @@ For this user story, we will need to add a private method to the bottom of app/c
   ```
     <ul>
       <li>
-        <%= link_to "Destroy", exercise_path(@exercise),
+        <%= link_to "Delete activity", destroy_exercise_path(exercise),
         method: :delete, data: { confirm: "Are you sure?" } %>
       </li>
     </ul>

@@ -7,6 +7,12 @@
   <p>
     <%= exercise.description %>
   </p>
+  <ul>
+    <li>
+      <%= link_to "Delete activity", destroy_exercise_path(exercise),
+      method: :delete, data: { confirm: "Are you sure?" } %>
+    </li>
+  </ul>
 <% end %>
 
 <p><%= link_to 'New Exercise', new_exercise_path %></p>
