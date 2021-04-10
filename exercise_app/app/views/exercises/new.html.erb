@@ -1,0 +1,13 @@
+<h3>Add a New Exercise Session</h3>
+<%= form_with model: @exercise do |form| %>
+
+  <%= form.label :activity %>
+  <%= form.text_field :activity %>
+
+  <br>
+  <%= form.label :description %>
+  <%= form.text_field :description %>
+
+  <br>
+  <%= form.submit 'Add Exercise' %>
+<% end %>
