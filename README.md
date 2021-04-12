@@ -24,7 +24,7 @@ We will be working with VSCode
  - [What is CRUD?](https://www.sumologic.com/glossary/crud/)
  - [REST vs CRUD](https://www.bmc.com/blogs/rest-vs-crud-whats-the-difference/)
  - [HTTP Methods for RESTful services](https://www.restapitutorial.com/lessons/httpmethods.html)
- - [Developer flow state and it’s impact on productivity](https://stackoverflow.blog/2018/09/10/developer-flow-state-and-its-impact-on-productivity/)
+ - [Developer flow state and its impact on productivity](https://stackoverflow.blog/2018/09/10/developer-flow-state-and-its-impact-on-productivity/)
  - [Action Controller Overview](https://guides.rubyonrails.org/action_controller_overview.html)
  - [Rails Routing from the Outside In](https://guides.rubyonrails.org/v2.3/routing.html)
  - [Understanding the basics of Ruby on Rails: SQL Databases and how they work](https://www.freecodecamp.org/news/understanding-the-basics-of-ruby-on-rails-sql-databases-and-how-they-work-7a628cd42073/)
